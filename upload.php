@@ -17,7 +17,7 @@ $err = "";
     }
     
     // Check file size
-    if ($_FILES["csv"]["size"] > 2000000) {
+    if ($_FILES["csv"]["size"] >1000000) {
       $err .= "Sorry, your file is too large.";
       $uploadOk = 0;
     }
